@@ -11,4 +11,4 @@
 <br>
 
 ### 3. 나라 수도 정보 JSON 응답
-<img src="./images/capital-info.png">
+<img src="images/capital-with-info.png">
