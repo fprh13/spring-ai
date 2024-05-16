@@ -1,1 +1,1 @@
-{stateOrCountry} 의 수도의 이름만 말해줘
+{stateOrCountry} 의 수도의 이름만 말해줄래? {format}

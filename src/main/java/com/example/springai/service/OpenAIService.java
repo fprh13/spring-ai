@@ -1,9 +1,7 @@
 package com.example.springai.service;
 
 
-import com.example.springai.model.Answer;
-import com.example.springai.model.GetCapitalRequest;
-import com.example.springai.model.Question;
+import com.example.springai.model.*;
 
 public interface OpenAIService {
 
@@ -11,7 +9,7 @@ public interface OpenAIService {
 
     Answer getAnswer(Question question);
 
-    Answer getCapital(GetCapitalRequest getCapitalRequest);
+    GetCapitalResponse getCapital(GetCapitalRequest getCapitalRequest);
 
-    Answer getCapitalWithInfo(GetCapitalRequest getCapitalRequest);
+    GetCapitalWithInfoResponse getCapitalWithInfo(GetCapitalRequest getCapitalRequest);
 }
