@@ -10,5 +10,5 @@
 
 <br>
 
-### 3. 형식에 맞는 나라 수도 정보 응답
+### 3. 나라 수도 정보 JSON 응답
 <img src="./images/capital-info.png">
