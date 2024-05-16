@@ -18,6 +18,14 @@ public class QuestionController {
     }
 
     /**
+     * 나라 정보
+     */
+    @PostMapping("/capital-with-info")
+    public Answer getCapitalWithInfo(@RequestBody GetCapitalRequest getCapitalRequest) {
+        return this.openAIService.getCapitalWithInfo(getCapitalRequest);
+    }
+
+    /**
      * 나라의 수도 질문
      */
     @PostMapping("/capital")
