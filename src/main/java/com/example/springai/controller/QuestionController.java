@@ -16,7 +16,7 @@ public class QuestionController {
     }
 
     /**
-     * 나라 정보
+     * 나라 수도 정보
      */
     @PostMapping("/capital-with-info")
     public GetCapitalWithInfoResponse getCapitalWithInfo(@RequestBody GetCapitalRequest getCapitalRequest) {

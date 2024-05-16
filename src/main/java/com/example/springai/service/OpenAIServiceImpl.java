@@ -33,9 +33,6 @@ public class OpenAIServiceImpl implements OpenAIService{
     @Value("classpath:templates/get-capital-with-info.st")
     private Resource getCapitalPromptWithInfo;
 
-    @Autowired
-    ObjectMapper objectMapper;
-
     @Override
     public GetCapitalWithInfoResponse getCapitalWithInfo(GetCapitalRequest getCapitalRequest) {
         BeanOutputParser<GetCapitalWithInfoResponse> parser = new BeanOutputParser<>(GetCapitalWithInfoResponse.class);
