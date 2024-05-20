@@ -16,3 +16,14 @@ https://velog.io/@fprh13/Spring-boot-Spring-AI-JSON으로-응답-하기Spring-bo
 
 ### 3. 나라 수도 정보 JSON 응답
 <img src="images/capital-with-info.png">
+
+<br>
+
+### 실습
+
+### 1. 프롬프트 엔지니어링 실습
+<img src="images/prompt.png">
+
+<br>
+
+<img src="images/promptCar.png">
