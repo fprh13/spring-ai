@@ -1,4 +1,4 @@
-package com.example.springai.model;
+package com.example.springai.openai.model;
 
 import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 

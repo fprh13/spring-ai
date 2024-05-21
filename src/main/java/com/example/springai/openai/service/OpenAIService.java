@@ -1,7 +1,8 @@
-package com.example.springai.service;
+package com.example.springai.openai.service;
 
 
 import com.example.springai.model.*;
+import com.example.springai.openai.model.*;
 
 public interface OpenAIService {
 

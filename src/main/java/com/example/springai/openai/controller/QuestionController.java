@@ -1,7 +1,8 @@
-package com.example.springai.controller;
+package com.example.springai.openai.controller;
 
 import com.example.springai.model.*;
-import com.example.springai.service.OpenAIService;
+import com.example.springai.openai.model.*;
+import com.example.springai.openai.service.OpenAIService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
